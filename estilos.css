@@ -1,0 +1,26 @@
+/*variables de css/ custom properties 2015*/
+
+/*raiz de mi documento :root*/
+:root{
+    /*declaramos la variable: asignamos un valor*/
+    --naranja: #F90;
+    /*naranja es el nombre que ledoy a la variable y f90 el contenido, esto significa que de la linea 6 para abajo 
+    a todo lo que llama naranja va a aser de ese color */
+    --negro: #000;
+    --blanco: #FFF;
+    --gris01:#333;
+    --gris02:#bbb;
+
+
+}
+body{
+    background-color: var(--naranja);
+}
+h1{
+    color: var(--gris01);
+    background-color: var(--blanco);
+}
+p{
+    color: var(--blanco);
+    background-color: var(--gris01);
+}
